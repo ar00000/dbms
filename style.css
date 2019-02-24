@@ -1,0 +1,26 @@
+#logo{
+	float:left;
+	width: 10%;
+	height:auto;
+	margin:-20px 0px;
+}
+#head{
+	text-align:center;
+}
+header{
+	background-color:skyblue;
+	padding: 20px;
+}
+#login{
+    background-color:azure;
+    margin:10% auto;
+    width:30vw;
+    text-align: center;
+}
+#login *{
+    margin:0px;
+    padding: 5px;
+}
+body{
+    background-color: whitesmoke;
+}
