@@ -31,7 +31,7 @@ header{
 }
 body{
     background-color: whitesmoke;
-background-image: url("C:\Users/Abhisheka Raman/Documents/LBSIM/assignments/DBMS/images/bg_login.jpg");
+background-image: url("bg_login.jpg");
 }
 #enroll{
     margin:auto 30%;
