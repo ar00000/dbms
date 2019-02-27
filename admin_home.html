@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
 <head>
-    <title>Result</title>
-    <meta charset="utf-8">
-    <link href="style.css" rel="stylesheet">
+<title>Result</title>
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
 <body>
@@ -11,14 +12,16 @@
 		<img id="logo" src="lbsim_logo.png" alt="logo">
 		<h1 id="head">Lal Bahadur Shastri Institute of Technology</h1>
 	</header>
-    <h2 class="well">Hello...</h2>
+    <h2>Hello...</h2>
     
     <form id="enroll" class="well">
-        <div class="form-group">
-        <label for="enrol">Enter Student Enrollment no.</label>
-        <input type="text" name="Enrollment" placeholder="Enrollment no." class="form-control" id="enrol">
-        </div>
-        <input type="submit" value="Submit" class="btn">
+        <figure>
+            <img src="avatars-profile.png" alt="avatar" width="60" class="mr-3 mt-3 rounded-circle">
+            <figcaption style="font-size: 2em;">Admin</figcaption>
+        </figure>
+        <p>Enter Student Enrollment no.</p>
+        <input type="text" name="username" value="Username">
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
