@@ -1,0 +1,32 @@
+#logo{
+	float:left;
+    max-width: 10%;
+    min-width: 10%;
+	height:auto;
+	margin:-20px 0px;
+}
+#head{
+	text-align:center;
+    font-size: 200%;
+}
+header{
+	background-color:skyblue;
+	padding: 20px;
+    border-radius: 30px;
+    color:white;
+}
+
+body{
+    background-color: whitesmoke;
+background-image: url("bg_login.jpg");
+}
+
+#enroll{
+    margin:auto 30%;
+}
+input{
+    float:right;
+}
+#submit{
+    float:none;
+}
